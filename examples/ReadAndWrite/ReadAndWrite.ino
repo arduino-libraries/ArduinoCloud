@@ -61,6 +61,16 @@ void setup() {
 
 void loop() {
   // subscribes to RW properties and look at the connections status
+
+  if ( WiFi.status() != WL_CONNECTED) {
+    while (WiFi.begin(ssid, pass) != WL_CONNECTED) {
+      // unsuccessful, retry in 4 seconds
+      Serial.print("failed ... ");
+      delay(4000);
+      Serial.print("retrying ... ");
+    }
+  }
+
   cloudObject.poll();
 
   // read the lamp switch "position", update "bulb" property accordingly
