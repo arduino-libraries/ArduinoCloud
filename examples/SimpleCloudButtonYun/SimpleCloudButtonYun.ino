@@ -7,8 +7,8 @@
 
   Arduino Cloud -> https://cloud.arduino.cc/cloud
 
-  IMPORTANT: in order to establish the tls connection and use the BridgeSSL
-  the yun firmware version should be >=1.6.2, look at
+  IMPORTANT: in order to establish the TLS connection and use the BridgeSSL
+  the Yun firmware version should be >=1.6.2, look at
   https://www.arduino.cc/en/Tutorial/YunSysupgrade
 
   created May 2016
