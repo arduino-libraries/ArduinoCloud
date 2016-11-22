@@ -7,9 +7,10 @@
 
   Arduino Cloud -> https://cloud.arduino.cc/cloud
 
-  IMPORTANT: in order to establish the tls connection is necessary to add
-  the arduino.cc SSL cerificate to your board, look at
-  https://github.com/arduino-libraries/WiFi101-FirmwareUpdater#to-update-ssl-certificates
+  IMPORTANT: This sketch requires the arduino.cc root SSL certificate loaded on your board.
+             The board comes with this certificate preloaded. The procedure to change the 
+             preloaded set of root certificates can be found here:
+             https://www.arduino.cc/en/Tutorial/FirmwareUpdater
 
   created May 2016
   by Gilberto Conti and Sandeep Mistry
