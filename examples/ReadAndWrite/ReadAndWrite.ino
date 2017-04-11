@@ -52,7 +52,7 @@ void setup() {
   }
 
   // setup the "cloudObject"
-  cloudObject.enableDebug(); // eneble the serial debug output
+  cloudObject.enableDebug(); // enable the serial debug output
   cloudObject.begin(thingName, userName, thingId, thingPsw, sslClient);
 
   // define the properties
