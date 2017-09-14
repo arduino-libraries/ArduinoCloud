@@ -20,15 +20,19 @@
 #include <WiFi101.h>
 #include <ArduinoCloud.h>
 
+
+#include "arduino_secrets.h" 
+///////please enter your sensitive data in the Secret tab/arduino_secrets.h
 /////// Wifi Settings ///////
-char ssid[] = "";
-char pass[] = "";
+
+char ssid[] = SECRET_SSID;
+char pass[] = SECRET_PASS;
 
 // Arduino Cloud settings and credentials
-const char userName[] = "";
-const char thingName[]   = "";
-const char thingId[]   = "";
-const char thingPsw[]  = "";
+const char userName[] = SECRET_USER_NAME;
+const char thingName[] = SECRET_THING_NAME;
+const char thingId[] = SECRET_THING_ID;
+const char thingPsw[]  = SECRET_THING_PSW;
 
 WiFiSSLClient sslClient;
 
