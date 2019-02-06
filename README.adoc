@@ -2,6 +2,8 @@
 :toclevels: 4
 :sectnums:
 
+= This library is DEPRECATED and is no more supported =
+
 toc::[]
 = Arduino Cloud Library
 Use this library to connect your Arduino/Genuino to Arduino cloud.
